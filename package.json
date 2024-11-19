@@ -1,0 +1,12 @@
+{
+    "name": "lambda-functions",
+    "version": "1.0.0",
+    "description": "Lambda functions for email verification",
+    "main": "handler.js",
+    "dependencies": {
+        "@sendgrid/mail": "^8.1.4",
+        "aws-sdk": "^2.1360.0",
+        "dotenv": "^16.4.5",
+        "mysql2": "^3.3.1"
+    }
+}
