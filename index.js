@@ -21,8 +21,8 @@ async function getSecret(secretName) {
 exports.handler = async (event) => {
   try {
     // Fetch secrets for SendGrid API Key and From Email
-    const sendgridApiKeySecret = 'sendgrid_ApiKeySecret'; 
-    const sendgridFromEmailSecret = 'sendgrid_FromEmailSecret'; 
+    const sendgridApiKeySecret = 'sendgrid_Api_KeySecret'; 
+    const sendgridFromEmailSecret = 'sendgrid_From_EmailSecret'; 
 
     // Retrieve API Key and From Email
     const sendgridApiKey = (await getSecret(sendgridApiKeySecret));
